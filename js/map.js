@@ -1,0 +1,1 @@
+"use strict";var map=new BMap.Map("allmap"),point=new BMap.Point(106.518519,29.541867),marker=new BMap.Marker(point);map.addOverlay(marker),map.centerAndZoom(point,19),marker.addEventListener("click",function(){map.openInfoWindow(infoWindow,point)});
